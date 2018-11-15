@@ -8,6 +8,9 @@ class ExampleWork extends React.Component {
       'modalOpen': false,
       'selectedExample': this.props.work[0]
     };
+
+    this.openModal = this.openModal.bind(this);
+    this.closeModal = this.closeModal.bind(this);
   }
 
   openModal(evt, example) {
@@ -15,8 +18,6 @@ class ExampleWork extends React.Component {
       'modalOpen': true,
       'selectedExample': example
     });
-    this.openModal = this.openModal.bind(this);
-    this.closeModal = this.closeModal.bind(this);
   }
 
   closeModal(evt) {
@@ -33,7 +34,7 @@ class ExampleWork extends React.Component {
           { this.props.work.map( (example, idx) => {
             return (
               <ExampleWorkBubble example = {example} key={idx}
-                openModal = {this.openModal}/>
+                openModal={this.openModal}/>
             )
           })
           }
@@ -69,3 +70,4 @@ class ExampleWorkBubble extends React.Component {
   }
 }
 export default ExampleWork;
+export { ExampleWorkBubble };
