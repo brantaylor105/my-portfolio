@@ -4,11 +4,11 @@ import ExampleWork from './example-work';
 
 const myWork = [
   {
-    'title': "Work Example1",
-    'href': "https://example.com",
-    'desc': "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    'title': "Dad Jokes",
+    'href': "https://x54phk6tc9.execute-api.us-west-2.amazonaws.com/Production/",
+    'desc': "How did pirates collaborate before computers? Pier-to-Pier networking! This project uses AWS DynamoDB, Cloudwatch, Lambda, and API Gateway endpoints to fetch dad jokes from an external source (props to icanhazdadjokes.com), stores them in DynamoDB, and presents them with API Gateway. You can find the code for this project on my GitHub!",
     'image': {
-      'desc': "example screenshot of a project involving code",
+      'desc': "Dad Jokes architecture",
       'src': "images/example1.png",
       'comment': ""
     }
