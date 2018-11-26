@@ -24,11 +24,11 @@ const myWork = [
     }
   },
   {
-    'title': "Work Example3",
-    'href': "https://example.com",
-    'desc': "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    'title': "Twitter Cats",
+    'href': "https://ee51fd7h81.execute-api.us-west-2.amazonaws.com/Production",
+    'desc': "This project uses the Twitter developer API to collect tweets about cats and store them into a DynamoDB table. It then runs the tweets through AWS Comprehend using Lambda and saves the sentiment results in a separate DynamoDB table. API Gateway then calls a lambda function to view the final results. This dataset includes over 1,000 tweets.",
     'image': {
-      'desc': "examples screenshot of a project involving cats",
+      'desc': "Does Twitter hate cats?",
       'src': "images/example3.png",
       'comment': ""
     }
