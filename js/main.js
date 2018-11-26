@@ -15,7 +15,7 @@ const myWork = [
   },
   {
     'title': "Study Notes",
-    'href': "polly.portfolio.brandontaylor.me",
+    'href': "http://polly.portfolio.brandontaylor.me",
     'desc': "This project uses AWS API Gateway, Lambda, DynamoDB, s3, SNS, and Amazon Polly to turn text files into mp3 files. You can upload your notes and convert them into an mp3 file so you can study them on the go!",
     'image': {
       'desc': "Study Notes Architecture",
